@@ -2,10 +2,10 @@
 
 **کیبورد فارسی استاندارد برای اوبونتو**
 
-* shift + " = "
 * ~ = پ
 * \ = ژ
 * m = ئ
+* shift + " = "
 * shift + space = ZWNJ
 
 ## how can use it
