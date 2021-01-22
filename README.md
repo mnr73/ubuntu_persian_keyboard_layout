@@ -1,4 +1,6 @@
-# standard persian keyboard
+# standard persian keyboard for ubuntu
+
+**کیبورد فارسی استاندارد برای اوبونتو**
 
 * shift + " = "
 * ~ = پ
