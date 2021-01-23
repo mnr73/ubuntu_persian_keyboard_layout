@@ -2,6 +2,8 @@
 
 **کیبورد فارسی استاندارد برای اوبونتو**
 
+![persian standard keyboard fir linux](images/fafix.png "کیبورد استاندارد فارسی برای لینوکس")
+
 * ~ = پ
 * \ = ژ
 * m = ئ

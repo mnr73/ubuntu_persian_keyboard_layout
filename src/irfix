@@ -59,16 +59,16 @@ xkb_symbols "pes_part_basic" {
     key <AC10> { [ Arabic_keheh, colon             ] };
     key <AC11> { [ Arabic_gaf , quotedbl           ] };
 
-    key <AB01> { [ Arabic_zah       ,  bracketright         ] };
-    key <AB02> { [ Arabic_tah       ,  bracketleft          ] };
-    key <AB03> { [ Arabic_zain      ,  Arabic_yeh           ] };
-    key <AB04> { [ Arabic_ra        ,  Arabic_kaf           ] };
-    key <AB05> { [ Arabic_thal      ,  0x00000625           ] };
-    key <AB06> { [ Arabic_dal       ,  0x00000623           ] };
-    key <AB07> { [ Arabic_hamzaonyeh,  Arabic_hamza         ] };
-    key <AB08> { [ Arabic_waw       ,  less                 ] };
-    key <AB09> { [ period           ,  greater              ] };
-    key <AB10> { [ slash            ,  Arabic_question_mark ] };
+    key <AB01> { [ Arabic_zah       , bracketright          ] };
+    key <AB02> { [ Arabic_tah       , bracketleft           ] };
+    key <AB03> { [ Arabic_zain      , Arabic_yeh            ] };
+    key <AB04> { [ Arabic_ra        , Arabic_kaf            ] };
+    key <AB05> { [ Arabic_thal      , Arabic_hamzaunderalef ] };
+    key <AB06> { [ Arabic_dal       , Arabic_hamzaonalef    ] };
+    key <AB07> { [ Arabic_hamzaonyeh, Arabic_hamza          ] };
+    key <AB08> { [ Arabic_waw       , less                  ] };
+    key <AB09> { [ period           , greater               ] };
+    key <AB10> { [ slash            , Arabic_question_mark  ] };
 
     key <TLDE> { [ Arabic_peh,  asciitilde ] };
     key <BKSL> { [ Arabic_jeh,  backslash  ] };
