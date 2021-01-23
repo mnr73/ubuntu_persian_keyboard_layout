@@ -34,18 +34,18 @@ xkb_symbols "pes_part_basic" {
     key <AE12> { [ equal  , plus         ] };
 
     // Persian letters and symbols
-    key <AD01> { [ Arabic_dad  , Arabic_fathatan   ] };
-    key <AD02> { [ Arabic_sad , Arabic_dammatan    ] };
-    key <AD03> { [ Arabic_theh, Arabic_kasratan    ] };
-    key <AD04> { [ Arabic_qaf , bar                ] };
-    key <AD05> { [ Arabic_feh , Arabic_comma       ] };
-    key <AD06> { [ Arabic_ghain, Arabic_semicolon  ] };
-    key <AD07> { [ Arabic_ain ,  comma             ] };
-    key <AD08> { [ Arabic_heh ,  Arabic_tehmarbuta ] };
-    key <AD09> { [ Arabic_khah,  0x000000D7        ] };
-    key <AD10> { [ Arabic_hah ,  0x000000F7        ] };
-    key <AD11> { [ Arabic_jeem, braceright         ] };
-    key <AD12> { [ Arabic_tcheh, braceleft         ] };
+    key <AD01> { [ Arabic_dad  , Arabic_fathatan         ] };
+    key <AD02> { [ Arabic_sad , Arabic_hamza_above       ] };
+    key <AD03> { [ Arabic_theh                           ] };
+    key <AD04> { [ Arabic_qaf , 0x100fdfc                ] }; //rial
+    key <AD05> { [ Arabic_feh , Arabic_comma             ] };
+    key <AD06> { [ Arabic_ghain, Arabic_semicolon        ] };
+    key <AD07> { [ Arabic_ain ,  comma                   ] };
+    key <AD08> { [ Arabic_heh                            ] };
+    key <AD09> { [ Arabic_khah,  0x10000D7               ] };
+    key <AD10> { [ Arabic_hah ,  0x10000F7               ] };
+    key <AD11> { [ Arabic_jeem, braceright               ] };
+    key <AD12> { [ Arabic_tcheh, braceleft               ] };
 
     key <AC01> { [ Arabic_sheen, Arabic_fatha      ] };
     key <AC02> { [ Arabic_seen, Arabic_damma       ] };
@@ -61,17 +61,17 @@ xkb_symbols "pes_part_basic" {
 
     key <AB01> { [ Arabic_zah       , bracketright          ] };
     key <AB02> { [ Arabic_tah       , bracketleft           ] };
-    key <AB03> { [ Arabic_zain      , Arabic_yeh            ] };
-    key <AB04> { [ Arabic_ra        , Arabic_kaf            ] };
-    key <AB05> { [ Arabic_thal      , Arabic_hamzaunderalef ] };
-    key <AB06> { [ Arabic_dal       , Arabic_hamzaonalef    ] };
-    key <AB07> { [ Arabic_hamzaonyeh, Arabic_hamza          ] };
+    key <AB03> { [ Arabic_zain      , Arabic_jeh            ] };
+    key <AB04> { [ Arabic_ra        , 0x100200D            ] }; //ZWJ
+    key <AB05> { [ Arabic_thal      , bar                  ] };
+    key <AB06> { [ Arabic_dal       , Arabic_hamza         ] };
+    key <AB07> { [ Arabic_peh       , Arabic_hamzaonyeh     ] };
     key <AB08> { [ Arabic_waw       , less                  ] };
     key <AB09> { [ period           , greater               ] };
     key <AB10> { [ slash            , Arabic_question_mark  ] };
 
     key <TLDE> { [ Arabic_peh,  asciitilde ] };
     key <BKSL> { [ Arabic_jeh,  backslash  ] };
-    key <SPCE> { [ 0x00000020, 0x0000200C ] };
+    key <SPCE> { [ 0x1000020, 0x100200C ] }; //ZWNJ
 };
 

@@ -2,11 +2,13 @@
 
 **کیبورد فارسی استاندارد برای اوبونتو**
 
+ZWNJ = فاصله مجازی  
+ZWJ = اتصال مجازی
+
 ![persian standard keyboard fir linux](images/fafix.png "کیبورد استاندارد فارسی برای لینوکس")
 
 * ~ = پ
 * \ = ژ
-* m = ئ
 * shift + " = "
 * shift + space = ZWNJ
 
