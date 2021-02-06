@@ -5,7 +5,11 @@
 ZWNJ = فاصله مجازی  
 ZWJ = اتصال مجازی
 
-![persian standard keyboard fir linux](images/fafix.png "کیبورد استاندارد فارسی برای لینوکس")
+حالت ۱
+![persian standard keyboard fir linux](src/type1/fafix.png "کیبورد استاندارد فارسی برای لینوکس")
+
+حالت ۲
+![persian standard keyboard fir linux](src/type2/fafix.png "کیبورد استاندارد فارسی برای لینوکس")
 
 * ~ = پ
 * \ = ژ
